@@ -23,17 +23,20 @@ describe('Formulario', () => {
 
     it("render cabecera nv2", () => {
         expect(cabecera).toBeInTheDocument(); 
-    }
-    );
+    });
+
     it (" render img", () => {
     expect(imagen).toBeInTheDocument();
     });
+
     it ("render textfield nombre", () => {
     expect(textfielnombre).toBeInTheDocument();
     });
+
     it ("render textfield edad", () => {
     expect(textfieledad).toBeInTheDocument();
     });
+    
     it ("render boton enviar", () => {
     expect(boton).toBeInTheDocument();
     });
